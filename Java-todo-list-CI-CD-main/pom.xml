@@ -49,6 +49,9 @@
                         <goals>
                             <goal>jar</goal>
                         </goals>
+                        <configuration>
+                         <classifier>jar-with-dependencies</classifier> <!-- Add classifier here -->
+                    </configuration>
                     </execution>
                 </executions>
             </plugin>
